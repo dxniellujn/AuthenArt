@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AuthenArt</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <header>
+    <nav class="top-header">
+      <a href="#inicio" class="logo">
+        <img width="80px" src="Img/AuthenArt - Logo.jpg" alt="" />
+      </a>
+
+      <ul class="Menu-horizontal">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+        <li><a href="#contacto">Contactanos</a></li>
+      </ul>
+
+      <ul class="Login">
+        <li>Iniciar Sesión</li>
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    <nav class="Inicio" id="inicio">
+      <div class="Imagen">
+        <img
+          width="550"
+          height="621"
+          src="Img/Mediofondo -  authenArt.jpg"
+          alt=""
+        />
+      </div>
+      <div class="Informacion">
+        <h1>Protege y verifica tu arte digital con confianza</h1>
+        <p>
+          Registra, certifica y verifica tus obras en segundos con autenticidad
+          digital y códigos QR únicos.
+        </p>
+
+        <ul class="R-obra">
+          <li>Sube aquí tu primera obra</li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="SobreNosotros" id="sobre-nosotros">
+      <img src="Img/fondo authenArt.webp" alt="" class="fondo-sobre-nosotros" />
+
+      <div class="sobre-contenedor">
+        <h2>Somos Nosotros</h2>
+
+        <p class="sobre-descripcion">
+          Somos AuthenArt, una startup peruana que busca proteger y dar valor al
+          arte digital mediante una plataforma accesible y segura para artistas,
+          coleccionistas y galerías.
+        </p>
+
+        <div class="tarjetas">
+          <div class="tarjeta">
+            <h3>Misión</h3>
+            <p>
+              Ofrecer a los artistas una plataforma simple y segura para
+              registrar y autenticar sus obras digitales.
+            </p>
+          </div>
+
+          <div class="tarjeta">
+            <h3>Visión</h3>
+            <p>
+              Ser la empresa líder en Latinoamérica en autenticación de arte
+              digital y protección de derechos de autor.
+            </p>
+          </div>
+
+          <div class="tarjeta">
+            <h3>Valores</h3>
+            <p>
+              Innovación, confianza, seguridad y accesibilidad para todos los
+              usuarios.
+            </p>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-Formulario" id="contacto">
+      <section class="Inscripcion-Section">
+        <div class="Container-Inscripcion">
+          <form name="frm" method="post" action="">
+            <fieldset id="form">
+              <legend>Formulario de Contacto</legend>
+
+              <label>Nombre completo:</label>
+              <input
+                type="text"
+                name="fname"
+                placeholder="Tu nombre completo"
+              />
+
+              <label>Correo electrónico:</label>
+              <input
+                type="email"
+                name="femail"
+                placeholder="correo@ejemplo.com"
+              />
+
+              <label>Motivo de contacto:</label>
+              <input
+                type="text"
+                name="fcontacto"
+                placeholder="¿Sobre qué deseas comunicarte?"
+              />
+
+              <div class="check-line">
+                <input type="checkbox" />
+                <span
+                  >Deseo recibir novedades y actualizaciones de AuthenArt</span
+                >
+              </div>
+
+              <button class="btn-form-insc">Enviar mensaje</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
